@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-freaking",
+  "version": "0.0.1",
+  "description": "A Freaking ESLint Plugin",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "node ./tests/lib/rules/no-freaking-tadpoles"
+  },
+  "author": "Ian Darling",
+  "license": "MIT",
+
+  "devDependencies": {
+    "eslint": "2.4.0"
+  }
+}
