@@ -10,7 +10,11 @@
   "author": "Ian Darling",
   "readme": "README.md",
   "license": "MIT",
+  "keywords": ["eslint", "eslintplugin"],
   "devDependencies": {
     "eslint": "2.4.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   }
 }
