@@ -1,16 +1,25 @@
 {
   "name": "eslint-plugin-freaking",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Freaking ESLint Plugin",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iandarling/eslint-plugin-freaking"
+  },
   "scripts": {
     "lint": "eslint ./",
     "test": "node ./tests/lib/rules/no-freaking-tadpoles"
   },
-  "author": "Ian Darling",
-  "readme": "README.md",
+  "author": {
+    "name": "Ian Darling"
+  },
+  "readme": "See https://github.com/iandarling/eslint-plugin-freaking",
   "license": "MIT",
-  "keywords": ["eslint", "eslintplugin"],
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
   "devDependencies": {
     "eslint": "2.4.0"
   },
