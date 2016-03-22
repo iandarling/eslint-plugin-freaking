@@ -8,8 +8,8 @@
     "test": "node ./tests/lib/rules/no-freaking-tadpoles"
   },
   "author": "Ian Darling",
+  "readme": "README.md",
   "license": "MIT",
-
   "devDependencies": {
     "eslint": "2.4.0"
   }
